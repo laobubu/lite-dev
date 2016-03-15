@@ -1,2 +1,27 @@
 # lite-dev
+
 Lightweight development server and compiler.
+
+This will be your good friend when you just want to build a simple website, but not willing to see Makefile, Gulpfile or any redundant blahblah scripts.
+
+## How to use
+
+1. Install `npm install -g lite-dev`
+2. Open your Terminal on your web directory `cd /works/foo-website/` 
+3. Run `lite-dev`
+
+## Game Rule
+
+### Directory Structure
+
+Just write your code right here right now! No more source directory or destination directory!
+
+### SASS or SCSS
+
+0. Install a global sass compiler.
+   - For most computers, `npm install -g node-sass`
+   - For some moribund outdated computers, `npm install -g sass.js`
+1. Create a source directory named as `scss` or `sass`.
+2. Create a destination directory named as `css`, `style` or `stylesheet`.
+3. Compose your scss files.
+4. Run `lite-dev`, and your scss files will be compiled and watched.

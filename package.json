@@ -5,7 +5,7 @@
   "main": "./lib/lite-dev",
   "scripts": {},
   "bin": {
-    "lite-server": "./bin/lite-dev"
+    "lite-dev": "./bin/lite-dev"
   },
   "repository": {
     "type": "git",
