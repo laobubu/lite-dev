@@ -1,0 +1,24 @@
+{
+  "name": "lite-dev",
+  "version": "1.0.0",
+  "description": "Lightweight development server and compiler.",
+  "main": "./lib/lite-dev",
+  "scripts": {},
+  "bin": {
+    "lite-server": "./bin/lite-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laobubu/lite-dev.git"
+  },
+  "author": "laobubu <laobubu@gmail.com> (http://laobubu.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laobubu/lite-dev/issues"
+  },
+  "homepage": "https://laobubu.net/lite-dev",
+  "dependencies": {
+    "browser-sync": "^2.11.1",
+    "requireg": "^0.1.5"
+  }
+}
