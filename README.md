@@ -29,3 +29,15 @@ And here we go.
 2. Create a destination directory named as `css`, `style` or `stylesheet`.
 3. Compose your scss files.
 4. Run `lite-dev`, and your scss files will be compiled and watched.
+
+### TypeScript
+
+First of all, if you don't have a TypeScript compiler, install one with `npm install -g typescript`
+
+0. (Optional) Create your `tsconfig.json` file.
+1. Create a source directory named as `typescript` or `ts`.
+2. Create a destination directory named as `javascript`, `js` or `script`.
+3. Compose your TypeScript files.
+4. Run `lite-dev`, and your TypeScript files will be compiled and watched.
+
+Notice: ts files under subdirectories will be ignored unless you have your own `tsconfig.json`
