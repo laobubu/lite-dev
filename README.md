@@ -18,9 +18,13 @@ Just write your code right here right now! No more source directory or destinati
 
 ### SASS or SCSS
 
-0. Install a global sass compiler.
-   - For most computers, `npm install -g node-sass`
-   - For some moribund outdated computers, `npm install -g sass.js`
+First of all, if you don't have a sass compiler, install one:
+
+- For most computers, `npm install -g node-sass`
+- For some moribund outdated computers, `npm install -g sass.js`
+
+And here we go.
+   
 1. Create a source directory named as `scss` or `sass`.
 2. Create a destination directory named as `css`, `style` or `stylesheet`.
 3. Compose your scss files.
