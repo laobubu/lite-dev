@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>LITE-DEV by laobubu</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>LITE-DEV</h1>
+        <p>Lightweight development server and compiler.</p>
+
+        <p class="view"><a href="https://github.com/laobubu/lite-dev">View the Project on GitHub <small>laobubu/lite-dev</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/laobubu/lite-dev/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/laobubu/lite-dev/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/laobubu/lite-dev">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="lite-dev" class="anchor" href="#lite-dev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>lite-dev</h1>
+
+<p>Lightweight development server and compiler (Sass, TypeScript).</p>
+
+<p>This will be your good friend when you just want to build a simple website, but not willing to see Makefile, Gulpfile or any redundant blahblah scripts.</p>
+
+<h2>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use</h2>
+
+<ol>
+<li>Install <code>npm install -g lite-dev</code>
+</li>
+<li>Open your Terminal on your web directory <code>cd /works/foo-website/</code> </li>
+<li>Run <code>lite-dev</code>
+</li>
+</ol>
+
+<h2>
+<a id="game-rule" class="anchor" href="#game-rule" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Game Rule</h2>
+
+<h3>
+<a id="directory-structure" class="anchor" href="#directory-structure" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Directory Structure</h3>
+
+<p>Just write your code right here right now! No more source directory or destination directory!</p>
+
+<p>For example:</p>
+
+<ul>
+<li>index.html</li>
+<li>about.html</li>
+<li>scss
+
+<ul>
+<li>style.scss</li>
+<li>_misc
+
+<ul>
+<li>variable.scss</li>
+<li>mixin.scss</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>css
+
+<ul>
+<li>(empty directory)</li>
+</ul>
+</li>
+<li>js
+
+<ul>
+<li>jQuery.js</li>
+<li>index.js</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="sass-or-scss" class="anchor" href="#sass-or-scss" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SASS or SCSS</h3>
+
+<p>First of all, if you don't have a sass compiler, install one:</p>
+
+<ul>
+<li>For most computers, <code>npm install -g node-sass</code>
+</li>
+<li>For some moribund outdated computers, <code>npm install -g sass.js</code>
+</li>
+</ul>
+
+<p>And here we go.</p>
+
+<ol>
+<li>Create a source directory named as <code>scss</code> or <code>sass</code>.</li>
+<li>Create a destination directory named as <code>css</code>, <code>style</code> or <code>stylesheet</code>.</li>
+<li>Compose your scss files.</li>
+<li>Run <code>lite-dev</code>, and your scss files will be compiled and watched.</li>
+</ol>
+
+<h3>
+<a id="typescript" class="anchor" href="#typescript" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TypeScript</h3>
+
+<p>First of all, if you don't have a TypeScript compiler, install one with <code>npm install -g typescript</code></p>
+
+<ol>
+<li>(Optional) Create your <code>tsconfig.json</code> file.</li>
+<li>Create a source directory named as <code>typescript</code> or <code>ts</code>.</li>
+<li>Create a destination directory named as <code>javascript</code>, <code>js</code> or <code>script</code>.</li>
+<li>Compose your TypeScript files.</li>
+<li>Run <code>lite-dev</code>, and your TypeScript files will be compiled and watched.</li>
+</ol>
+
+<p>Notice: ts files under subdirectories will be ignored unless you have your own <code>tsconfig.json</code></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/laobubu">laobubu</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
