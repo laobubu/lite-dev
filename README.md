@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/lite-dev.svg)](https://www.npmjs.com/package/lite-dev)
+
 # lite-dev
 
 Lightweight development server and compiler.
@@ -14,7 +16,20 @@ This will be your good friend when you just want to build a simple website, but 
 
 ### Directory Structure
 
-Just write your code right here right now! No more source directory or destination directory!
+Just put everything together. For example:
+
+- index.html
+- about.html
+- scss
+  - style.scss
+  - _misc
+    - variable.scss
+    - mixin.scss
+- css
+  - (empty directory; the destination directory of Sass compiler)
+- js
+  - jQuery.min.js
+  - index.js
 
 ### SASS or SCSS
 
