@@ -19,6 +19,7 @@
   "homepage": "https://laobubu.net/lite-dev",
   "dependencies": {
     "browser-sync": "^2.11.1",
+    "minimist": "^1.2.0",
     "requireg": "^0.1.5"
   }
 }
