@@ -30,6 +30,13 @@ Just put everything together. For example:
 - js
   - jQuery.min.js
   - index.js
+  
+### Command Options
+
+ -  `-h, --help`       Show these message.
+ -  `-c, --compile`    Compile only. BrowserSync will not run.
+ -  `-m, --map`        Generate SourceMap data.
+ -  `-o, --once`       Don't watch changes. One-shot compilation.
 
 ### SASS or SCSS
 
@@ -51,10 +58,10 @@ Notice: sass/scss files under subdirectories will be ignored.
 
 First of all, if you don't have a TypeScript compiler, install one with `npm install -g typescript`
 
-1. Create your `tsconfig.json` file, or just ... 
-  1. Create a source directory named as `typescript` or `ts`.
-  2. Create a destination directory named as `javascript`, `js` or `script`.
-  3. lite-dev runs `tsc` with `--target es5` by default.
-  4. The ts files under subdirectories will be ignored.
+1. Create your `tsconfig.json` file, or... 
+    - Create a source directory named as `typescript` or `ts`.
+    - Create a destination directory named as `javascript`, `js` or `script`.
+    - lite-dev runs `tsc` with `--target es5` by default.
+    - The ts files under subdirectories will be ignored.
 2. Compose your TypeScript files.
 3. Run `lite-dev`, and your TypeScript files will be compiled and watched.
