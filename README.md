@@ -20,6 +20,7 @@ Just put everything together. For example:
 
 - index.html
 - about.html
+- bs-config.json (optional)
 - scss
   - style.scss
   - _misc
