@@ -33,10 +33,13 @@ Just put everything together. For example:
   
 ### Command Options
 
- -  `-h, --help`       Show these message.
- -  `-c, --compile`    Compile only. BrowserSync will not run.
- -  `-m, --map`        Generate SourceMap data.
- -  `-o, --once`       Don't watch changes. One-shot compilation.
+```
+  -h, --help       Show options message.
+  -c, --compile    Compile only. BrowserSync will not run.
+  -m, --map        Generate SourceMap data.
+  -o, --once       Don't watch changes. One-shot compilation.
+  -p, --port PORT  BrowserSync port. Works even if "bs-config.json" file exists.
+```
 
 ### SASS or SCSS
 
