@@ -1,6 +1,6 @@
 {
   "name": "lite-dev",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lightweight development server and compiler.",
   "main": "./lib/lite-dev",
   "scripts": {},
